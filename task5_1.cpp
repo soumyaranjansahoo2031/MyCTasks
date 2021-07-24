@@ -31,7 +31,7 @@ Time::display(){
     if(s<10){
         ss="0"+to_string(s);
     }
-    cout<<"Time is "+hh+" : "+mm+" : "+ss<<endl;4;
+    cout<<"Time is "+hh+" : "+mm+" : "+ss<<endl;
 }
 Time::alltoseconds(){
     int times=h*3600+m*60+s;
